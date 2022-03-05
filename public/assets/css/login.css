@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: rgb(5, 5, 39);
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding-bottom: 2vh;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#modal {
+    width: 410px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content {
+    width: 40vh;
+    height: 70vh;
+}
+.inputs {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5% 0;
+    align-items: center;
+
+}
+.submit{
+    border: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.submit {
+    background-color: rgb(0, 119, 255);
+    font-size: 115%;
+    border-radius: 5px;
+}
+#cadastro {
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inline {
+    display: inline-block;
+}
+
+.icon-email {
+    width: 15%;
+    text-align: center;
+    font-size: 180%;
+    color: rgb(0, 119, 255);
+}
+.icon-exclamacao{
+    float: right;
+    width: 4%;
+    margin-right: 3%;
+    text-align: center;
+    font-size: 180%;
+    color: red;
+}
+.normal-input, .normal-input::after, .normal-input:focus, .normal-input:-internal-autofill-selected {
+    background-color: white;
+    border-radius: 5px;
+    height: 100%;
+    width: 75%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 90%;
+    padding-left: 1%;
+    font-weight: 600;
+    color: black;
+}
+.normal-input::placeholder {
+    color: black;
+}
+.cadastro {
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-size: 105%;
+}
+#error {
+    color: red;
+    text-align: right;
+    font-size: 105%;
+}
+#account {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 800%;
+    color:rgb(0, 119, 255)
+}
