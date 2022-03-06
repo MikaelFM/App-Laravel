@@ -8,7 +8,7 @@
         <!--------------------------Scripts------------------------------------>
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="../../public/assets/js/jquery-3.6.0.min.js"></script>
+        <script src="{{url('/assets/js/jquery-3.6.0.min.js')}}"></script>
         <!----------------------------CSS-------------------------------------->
         <link
             href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,12 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function (){
+/*Route::get('/login', function (){
     return view('login');
-});
-Route::get('/login', function (){
-    return view('login');
-});
+});*/
 Route::get('/cadastro', function (){
     return view('cadastro');
 });
+Route::get('/info', function (){
+    phpinfo();
+});
+Route::get('/login', [LoginController::class, 'index']);
+Route::get('/', [LoginController::class, 'index']);
+Route::post('/loginGetValue', [LoginController::class, 'pegaValores']);

@@ -63,7 +63,7 @@ var App1 = new Vue({
             senha = this.senha;
             var re = /\S+@\S+\.\S+/;
             if (re.test(email)) {
-                axios.post('./index.php', {
+                axios.post('/loginGetValue', {
                     email: this.email,
                     senha: this.senha
                 })
